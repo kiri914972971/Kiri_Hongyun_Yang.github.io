@@ -1,12 +1,12 @@
 ---
 title: "Game Platform Pricing & Rating Analysis"
 collection: portfolio
-excerpt: "Analyzed pricing, discount strategies, and rating drivers on a digital game platform to support data-driven marketing and platform decisions."
+excerpt: "Analyzed pricing, discount strategies, and rating drivers on Steam, a digital game platform, to support data-driven marketing and platform decisions."
 date: 2025-12-01
 ---
 
 ## Project Background
-Digital game platforms host a wide variety of games with different pricing models, discount strategies, and user feedback dynamics.  
+Steam hosts a wide variety of games with different pricing models, discount strategies, and user feedback dynamics.  
 Understanding how pricing and promotions influence consumer behavior and game ratings is critical for platform growth, developer support, and monetization strategy.
 
 This project focuses on analyzing game-level data from a digital game platform to uncover patterns in pricing, discount behavior, and rating outcomes, and to translate these findings into actionable business insights.
@@ -66,7 +66,7 @@ This project focuses on analyzing game-level data from a digital game platform t
 ![Game Platform Analysis](/images/LR_ROC.png)
 - Machine Learning
 ![Game Platform Analysis](/images/Machine_learning.png)
-![Game Platform Analysis](/images/Machine_performance.png)
+![Game Platform Analysis](/images/Model_performance.png)
 
 ---
 
