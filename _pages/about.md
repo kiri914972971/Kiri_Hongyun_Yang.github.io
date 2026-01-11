@@ -3,6 +3,7 @@ layout: archive
 title: "About"
 permalink: /about/
 author_profile: true
+author: academicpages
 ---
 
 Hi, I’m **Kiri Yang**. I’m currently pursuing an MSc in **Business Information Systems**.  
