@@ -3,6 +3,8 @@ title: "Game Platform Pricing & Rating Analysis"
 collection: portfolio
 excerpt: "Analyzed pricing, discount strategies, and rating drivers on Steam, a digital game platform, to support data-driven marketing and platform decisions."
 date: 2025-12-01
+author: academicpages
+author_profile: true
 header:
   teaser: projects/game-teaser.jpg
 ---
