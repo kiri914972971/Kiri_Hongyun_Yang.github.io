@@ -3,7 +3,7 @@ title: "Hotel Booking Cancellation Prediction"
 collection: portfolio
 excerpt: "Built a predictive model to identify hotel booking cancellations and provide data-driven recommendations to reduce revenue loss."
 header:
-  teaser: /images/hotel-teaser.jpg
+  teaser: /images/projects/hotel-teaser.jpg
 date: 2025-12-01
 ---
 
