@@ -4,7 +4,7 @@ collection: portfolio
 excerpt: "Analyzed pricing, discount strategies, and rating drivers on Steam, a digital game platform, to support data-driven marketing and platform decisions."
 date: 2025-12-01
 header:
-  teaser: /images/projects/game-teaser.jpg
+  teaser: projects/game-teaser.jpg
 ---
 
 ## Project Background
