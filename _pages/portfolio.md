@@ -9,12 +9,22 @@ Here are some selected projects showcasing my work in data analysis, product thi
 
 {% assign projects = site.portfolio | sort: "date" | reverse %}
 
-{% for p in projects %}
-### [{{ p.title }}]({{ p.url | relative_url }})
+{% assign projects = site.portfolio | sort: "date" | reverse %}
 
-{% if p.excerpt %}{{ p.excerpt }}{% endif %}
+<div class="grid__wrapper">
+  {% for p in projects %}
+    <div class="grid__item">
+      <article class="archive__item">
+        <h2 class="archive__item-title">
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        </h2>
 
-[View Project →]({{ p.url | relative_url }})
+        {% if p.excerpt %}
+          <p class="archive__item-excerpt">{{ p.excerpt }}</p>
+        {% endif %}
 
----
-{% endfor %}
+        <p><a class="btn btn--primary" href="{{ p.url | relative_url }}">View project →</a></p>
+      </article>
+    </div>
+  {% endfor %}
+</div>
