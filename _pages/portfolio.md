@@ -1,9 +1,11 @@
 ---
-layout: archive
+layout: collection
 title: "Projects"
 permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
+sort_by: date
+sort_order: reverse
 author_profile: true
 ---
 
