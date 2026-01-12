@@ -1,37 +1,51 @@
 ---
 ---
+
 /*
  * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-  "include/mixins",
-  "vendor/susy/susy",
-  "layout/reset",
-  "layout/base",
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
-  "layout/forms",
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
-;
+    "vendor/breakpoint/breakpoint",
 
-/* Sidebar: long text wrap */
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+/* =========================
+   Sidebar fixes
+   ========================= */
+
+/* Allow long text (e.g. City University of Hong Kong) to wrap */
 .sidebar .author__urls li,
 .sidebar .author__urls a,
 .sidebar p {
@@ -40,20 +54,14 @@
   word-break: break-word;
 }
 
+/* Make sidebar slightly wider on desktop */
 @media (min-width: 64em) {
-  /* ✅ pick ONE number and keep it consistent */
-  .sidebar { width: 300px; }
+  .sidebar {
+    width: 200px;
+  }
 
-  /* ✅ release max-width constraints */
-  .page,
   .archive,
-  .home,
-  .initial-content,
-  .page__inner-wrap,
-  .archive__wrapper {
-    max-width: none;
+  .page {
+    width: calc(100% - 200px);
   }
 }
-
-/* ✅ TEST: remove after confirmed */
-body { outline: 10px solid red !important; }
