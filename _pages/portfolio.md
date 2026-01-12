@@ -4,6 +4,7 @@ title: "Projects"
 permalink: /portfolio/
 author_profile: true
 author: academicpages
+entries_layout: list
 ---
 
 Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
