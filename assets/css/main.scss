@@ -64,16 +64,3 @@
   .page {
     width: calc(100% - 220px);
   }
-}
-/* Projects page: force single-column list */
-@media (min-width: 48em) {
-  .grid__wrapper {
-    grid-template-columns: 1fr !important;
-  }
-
-  /* optional: make each card look cleaner */
-  .archive__item-teaser img {
-    width: 100%;
-    height: auto;
-  }
-}
