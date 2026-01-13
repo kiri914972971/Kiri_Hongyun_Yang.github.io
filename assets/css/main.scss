@@ -75,3 +75,50 @@
   float: none !important;
   margin-bottom: 24px;
 }
+/* =========================
+   Portfolio: vertical aligned list (image left, text right)
+   ========================= */
+
+@media (min-width: 48em) {
+  /* only for the portfolio page */
+  .page--portfolio .archive__item {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+    margin-bottom: 34px;
+  }
+
+  .page--portfolio .archive__item-teaser {
+    flex: 0 0 320px;      /* left column width */
+    margin: 0;            /* kill weird default spacing */
+  }
+
+  .page--portfolio .archive__item-teaser img {
+    width: 100%;
+    height: 190px;        /* fixed height to align rows */
+    object-fit: cover;    /* crop nicely */
+    border-radius: 14px;
+    display: block;
+  }
+
+  /* right column */
+  .page--portfolio .archive__item-title,
+  .page--portfolio .archive__item-excerpt,
+  .page--portfolio .page__date {
+    margin-left: 0;
+  }
+
+  /* prevent list layout from doing float/grid leftovers */
+  .page--portfolio .archive__item,
+  .page--portfolio .archive__item-teaser {
+    float: none !important;
+    width: auto !important;
+  }
+}
+
+/* On mobile: stack vertically (image on top) */
+@media (max-width: 47.999em) {
+  .page--portfolio .archive__item-teaser img {
+    border-radius: 14px;
+  }
+}
