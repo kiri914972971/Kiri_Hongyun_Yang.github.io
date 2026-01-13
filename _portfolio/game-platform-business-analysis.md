@@ -6,7 +6,7 @@ date: 2025-12-01
 author: academicpages
 author_profile: true
 header:
-  teaser: projects/game-teaser.jpg
+  teaser: /images/projects/game-teaser.jpg
 ---
 
 ## Project Background
