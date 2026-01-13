@@ -4,9 +4,9 @@ collection: portfolio
 excerpt: "Built a predictive model to identify hotel booking cancellations and provide data-driven recommendations to reduce revenue loss."
 author: academicpages
 author_profile: true
-header:
-  teaser: projects/hotel-teaser.jpg
 date: 2025-12-01
+header:
+  teaser: /images/projects/hotel-teaser.jpg
 ---
 
 ## Project Background
