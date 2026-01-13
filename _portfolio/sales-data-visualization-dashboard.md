@@ -6,7 +6,7 @@ date: 2020-07-01
 author: academicpages
 author_profile: true
 header:
-  teaser: projects/sales-teaser.png
+  teaser: /images/projects/sales-teaser.png
 ---
 
 ## Project Background
