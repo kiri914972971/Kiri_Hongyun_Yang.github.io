@@ -2,9 +2,9 @@
 layout: archive
 title: "Projects"
 permalink: /portfolio/
-author_profile: true
-author: academicpages
+collection: portfolio
 entries_layout: list
+author_profile: true
 ---
 
 Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
