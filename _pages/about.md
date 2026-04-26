@@ -6,13 +6,72 @@ author_profile: true
 author: academicpages
 ---
 
-Hi, I’m **Kiri Yang**. I’m currently pursuing an MSc in **Business Information Systems**.  
-I’m interested in roles related to **Business Data Analysis** and **Product**, and I enjoy turning messy data into clear business decisions.
+你好呀，我是**Kiri Yang**👋
+我是一个从 **国际商务 → 教育行业 → 商业信息系统** 转型的人，现在正在努力成为一名既懂业务、也懂数据的人。
 
-### What I focus on
-- **Business & Data Analysis**: finding patterns, building models, and translating results into actions  
-- **Product Thinking**: understanding user needs and making practical recommendations  
-- **Data Visualization**: dashboards and storytelling for decision-making  
+很多人职业路线像直线，我的更像绕远路。  
+但后来我发现，那些看似“不相关”的经历，其实都在帮我积累能力。
 
-### Tools
-Python (pandas, scikit-learn), SAS Enterprise Miner, Tableau, Excel (Power Query, Pivot)
+---
+
+## 我的转型故事
+
+本科读的是国际商务，毕业后进入教育行业，当了两年雅思老师。
+
+那段时间让我学会了：
+
+- 快速理解不同人的需求  
+- 把复杂问题讲清楚  
+- 在大厂压力下保持耐心和执行力  
+- 用结果负责，而不是只完成任务  
+
+后来我开始意识到，只依赖老师的上课经验和直觉是不够的。
+
+为什么有些学生进步快？  
+为什么有些课程转化率高？  
+为什么同样的资源，结果差很多？
+
+这些问题，把我带到了数据分析和产品思维的世界。
+我把所带学生的数据全部收集起来，尝试自己建立模型，去分析不同程度的学生，在不同的授课比重下，预测分数的提升程度。
+把分析的结果带到课堂实践后，我惊喜发现其实基础弱的学生不应该加大比重在语法知识点上，反而需要多讲解技巧，才能更有效地提分；而基础扎实成绩较好的学生，不应该只讲技巧和刷题，需要同样重视语法，才不会进入提分瓶颈期。
+
+所以我毅然决然地申请了数据分析相关的专业。
+
+---
+
+## 现在的我在做什么
+
+目前在香港城市大学攻读 **Business Information Systems 硕士**，持续学习：
+
+- Data Analysis  
+- SQL / Python / JAVA
+- Tableau / Dashboard  
+- Product Thinking  
+- Business Strategy  
+
+我喜欢把混乱的信息整理成清晰结论，也喜欢把抽象问题变成可执行方案。
+
+---
+
+## 工作之外的我
+
+除了学习和做项目，我平时也喜欢：
+
+- 羽毛球（认真流汗型选手）  
+- 动漫 / 游戏 / 小说（长期精神食粮）  
+- 写东西（偶尔灵感爆发）  
+- 研究效率工具和新产品  
+
+我相信，一个人保持好奇心，比只会做题更重要。
+
+---
+
+## 我想成为怎样的人
+
+我希望未来的自己：
+
+既有分析能力，也有判断力。  
+既能看数据，也能看人。  
+既能解决问题，也能创造价值。
+
+如果你也在做数据、产品、商业分析相关方向，欢迎交流。
