@@ -1,7 +1,7 @@
 ---
-title: "Game Platform Pricing & Rating Analysis"
+title: "平台产品营销策略与用户行为分析（Steam数据项目）"
 collection: portfolio
-excerpt: "Analyzed pricing, discount strategies, and rating drivers on Steam, a digital game platform, to support data-driven marketing and platform decisions."
+excerpt: "分析不同折扣区间及游戏生命周期下的策略效果，并为促销决策提供数据支持"
 date: 2025-12-01
 author: academicpages
 author_profile: true
@@ -9,100 +9,86 @@ header:
   teaser: /images/projects/game-teaser.jpg
 ---
 
-## Project Background
-Steam hosts a wide variety of games with different pricing models, discount strategies, and user feedback dynamics.  
-Understanding how pricing and promotions influence consumer behavior and game ratings is critical for platform growth, developer support, and monetization strategy.
-
-This project focuses on analyzing game-level data from a digital game platform to uncover patterns in pricing, discount behavior, and rating outcomes, and to translate these findings into actionable business insights.
+## 业务背景
+在数字游戏分发平台（如 Steam）中，折扣策略是影响用户行为和销售表现的核心手段之一。平台通常通过周期性促销（如季节性大促、限时折扣）来提升游戏曝光度和用户参与度，但不同折扣策略的实际效果存在较大不确定性。在此背景下，如何制定合理的折扣策略，既提升用户参与度，又避免不必要的收入损失，成为一个重要的商业决策问题。
 
 ---
 
-## Business Questions
-- How do different pricing and discount strategies affect consumer appeal across games?  
-- What key factors influence whether a game achieves a high rating on the platform?  
-- Can games be meaningfully segmented to support differentiated pricing, bundling, and marketing strategies?  
+## 核心问题与分析目标
+1.	折扣是否能够显著提升用户参与度？ 
+2.	折扣是否会对用户满意度产生负面影响？ 
+3.	不同生命周期（新游戏 vs 老游戏）下，折扣效果是否存在差异？ 
+4.	是否存在一个最优折扣区间，以实现参与度与收益的平衡？ 
+
+分析目标：构建基于数据的折扣策略框架，为不同生命周期的游戏提供促销建议。
 
 ---
 
-## Data & Approach
-- The dataset includes game attributes such as price, discount rate, release time, user reviews, ratings, and platform support features  
-- Combined **unsupervised learning** (clustering) and **supervised learning** (classification) techniques to address both segmentation and prediction tasks  
+## 分析方法
+•	探索性分析（EDA）：观察折扣与评论数量关系 
+
+•	A/B测试：对比高折扣 vs 低折扣 
+
+•	回归分析（OLS）：多元回归分析、交互项回归分析
 
 ---
 
-## What I Did
-- Cleaned and prepared raw game-level data for analysis  
-- Applied clustering techniques to segment games into distinct groups based on pricing behavior, discount patterns, and product characteristics  
-- Built Logistic Regression and machine learning models to identify key factors associated with high game ratings  
-- Interpreted model outputs with a focus on **business implications**, rather than purely technical performance  
+## 核心结论
+**1.	折扣对用户满意度无显著影响**
+
+回归分析结果显示，折扣水平对游戏评分（满意度）影响不显著（p-value = 0.848），说明高折扣并不会损害用户体验或评价。
+
+**2.	高折扣显著提升用户参与度**
+
+无论是探索性分析还是A/B测试结果均表明：折扣越高，用户参与度（以评论数量及年均评论量衡量）显著提升。
+
+![Game Platform Analysis](/images/steam_dashboard1.png)
+
+**3.	折扣效果存在明显区间差异**
+
+在控制价格、评分、平台数量等变量后：
+
+•	超高折扣（>75%） → 参与度最高 
+
+•	高折扣（50%–75%） → 次优 
+
+•	中低折扣 → 效果显著较差 
+
+说明折扣并非“越低越稳”，而是存在明确的最优区间结构。
+
+![Game Platform Analysis](/images/steam_dashboard2.png)
+
+**4.	折扣策略在不同生命周期下作用不同**
+
+折扣、平台分发、价格均显著影响新游戏（≤3年）参与度，属于“曝光驱动型”
+
+而老游戏（>3年）评分（满意度）影响更强，平台不再显著，属于“口碑驱动型”
+
+![Game Platform Analysis](/images/steam_dashboard3.png)
 
 ---
 
-## Key Insights
-- Games can be grouped into distinct clusters that respond differently to pricing and promotion strategies, suggesting that a one-size-fits-all approach is ineffective  
-- Discount rate and base price both have a significant impact on game ratings, but their effects vary across clusters  
-- User reviews, platform support, and game age play important roles in shaping rating outcomes  
-- Aggressive discounting alone does not guarantee higher ratings and may weaken perceived product value  
+## 策略建议
+**1.	新游戏（≤3年）**
+
+需采用超高折扣（>75%）快速拉升曝光与参与度，核心目的是抢占用户注意力。若预算有限，建议优先投放在新游戏，因为其边际收益更高。
+
+**2.	老游戏（>3年）**
+
+需采用中高折扣（50%–75%），无需过度降价，依赖口碑驱动。若是高评分老游戏，可考虑不打折，因为其已经有自然需求。
+
+**3.	避免低效折扣策略**
+
+低中折扣（<50%）属于低ROI策略，其对参与度提升有限，但仍会造成利润损失
+
+![Game Platform Analysis](/images/steam_recommendation.png)
 
 ---
 
-## Business Implications
-- Platform operators can apply **cluster-specific pricing and promotion strategies** to improve marketing efficiency  
-- Insights from rating drivers can support better developer guidance and platform recommendation mechanisms  
-- A data-driven understanding of pricing and ratings helps balance short-term promotions with long-term platform value  
 
----
 
-## Tools & Skills
-- SAS Enterprise Miner  
-- Clustering analysis  
-- Logistic Regression & machine learning models  
-- Business analysis & data-driven insight generation  
+## 完整报告
+📄 [Download the full project report (PDF)](/files/steam_report.pdf)
 
----
-
-## Visual Preview
-- Cluster Analysis
-![Game Platform Analysis](/images/Cluster_analysis.png)
-![Game Platform Analysis](/images/Cluster_result.png)
-- Logistic Regression
-![Game Platform Analysis](/images/LR_comparison.png)
-![Game Platform Analysis](/images/LR_ROC.png)
-- Machine Learning
-![Game Platform Analysis](/images/Machine_learning.png)
-![Game Platform Analysis](/images/Model_performance.png)
-
----
-
-## Full Report
-📄 [Download the full project report (PDF)](/files/Game_Platform_Analysis_Report.pdf)
-
----
-
-## 中文项目摘要
-
-本项目基于某数字游戏平台的游戏级数据，从定价、折扣策略与用户评分三个核心维度出发，  
-系统性分析不同游戏在平台上的表现差异，并挖掘影响高评分的关键因素。
-
-### 研究目标
-- 分析不同定价与折扣策略对消费者吸引力的影响  
-- 识别影响游戏评分高低的关键因素  
-- 通过聚类分析对游戏进行分组，为差异化营销和定价策略提供支持  
-
-### 分析方法
-- 对游戏价格、折扣率、用户评价、平台支持等变量进行清洗与分析  
-- 采用聚类分析对游戏进行分群，刻画不同类型游戏的特征  
-- 使用 Logistic Regression 与机器学习模型识别高评分游戏的关键影响因素  
-- 从业务角度解读分析结果，强调可落地性而非单纯模型指标  
-
-### 核心发现
-- 不同游戏分群在价格敏感度和促销响应上存在显著差异  
-- 折扣率、价格水平、用户评价数量、平台支持以及游戏生命周期均与评分结果密切相关  
-- 过度依赖折扣并不能保证评分提升，反而可能削弱产品长期价值  
-
-### 业务价值
-- 支持平台制定更精细化的定价与促销策略  
-- 为开发者提供数据驱动的定价与产品优化参考  
-- 提升平台在用户推荐与内容分发层面的决策质量  
 
 📎 完整分析报告可通过上方 PDF 文件查看。
