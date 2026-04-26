@@ -49,7 +49,7 @@ author: academicpages
 - Product Thinking  
 - Business Strategy  
 
-我喜欢把混乱的信息整理成清晰结论，也喜欢把抽象问题变成可执行方案。
+学习成果：获得仅有6个名额的**学业奖学金**⭐
 
 ---
 
