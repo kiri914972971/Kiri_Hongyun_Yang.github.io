@@ -8,7 +8,7 @@ author_profile: true
 author: academicpages
 ---
 
-Here are some selected projects showcasing my work in data analysis, product thinking, and business insights.
+以下是一些精选项目，展示了我在数据分析、产品思维和商业洞察方面的工作。
 
 {% assign projects = site.portfolio | sort: "date" | reverse %}
 
