@@ -59,7 +59,7 @@ Python（pandas / sklearn）、SQL、Tableau、Excel（Power Query / Pivot）、
 - **平台产品营销策略与用户行为分析（Steam数据项目）**  
   [View Project →](/portfolio/game-platform-business-analysis/)
 
-- **数字音乐平台用户行为与营收分析项目**  
+- **销售经营数据监控看板**  
   [View Project →](/portfolio/sales-data-visualization-dashboard/)
 
 ---
