@@ -8,7 +8,33 @@ author: academicpages
 
 ## Hi, I’m Kiri 👋
 
-我目前就读于**香港城市大学 Business Information Systems 硕士**，拥有国际商务背景，并正在向 **商业分析 / 数据分析 / 产品方向** 发展。曾有教育、保险运营、市场分析等跨行业经历，让我既理解业务现场，也具备数据思维。
+我目前就读于**香港城市大学 Business Information Systems 硕士**，拥有国际商务背景，并正在向 **AI 产品经理 / 数据分析 / 商业分析** 方向发展。曾有教育、保险运营、市场分析等跨行业经历，让我既理解业务现场，也具备数据思维和产品化意识。
+
+---
+
+## Featured Projects
+
+<div class="featured-projects">
+  <article class="featured-project">
+    <h3>DataInsight Agent</h3>
+    <p>AI-powered data analysis workspace，把数据质量、表关系、KPI、Dashboard 与 AI 分析整合到一个数据分析工作台中。</p>
+    <p class="featured-project__tags">Python · Streamlit · Pandas · Plotly · OpenPyXL</p>
+    <p>
+      <a class="btn btn--small" href="https://github.com/kiri914972971/datainsight-agent">GitHub</a>
+      <a class="btn btn--small btn--inverse" href="/portfolio/datainsight-agent/">Portfolio</a>
+    </p>
+  </article>
+
+  <article class="featured-project">
+    <h3>Novel Agent</h3>
+    <p>VS Code AI 小说创作助手，支持知识库管理、AI 讨论、续写、润色和 RAG 上下文检索。</p>
+    <p class="featured-project__tags">TypeScript · VS Code Extension API · Node.js · RAG · DeepSeek API</p>
+    <p>
+      <a class="btn btn--small" href="https://github.com/kiri914972971/novel-agent">GitHub</a>
+      <a class="btn btn--small btn--inverse" href="/portfolio/novel-agent/">Portfolio</a>
+    </p>
+  </article>
+</div>
 
 ---
 
@@ -46,7 +72,7 @@ Python（pandas / sklearn）、SQL、Tableau、Excel（Power Query / Pivot）、
 
 ---
 
-### 📌 Selected Projects
+### 📌 More Projects
 - **酒店预订取消风险预测与经营优化分析**   
   [View Project →](/portfolio/hotel-cancellation-prediction/)
 
