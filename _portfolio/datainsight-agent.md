@@ -5,6 +5,8 @@ excerpt: "AI-powered data analysis workspace，面向个人数据分析师、业
 date: 2026-07-02
 author: academicpages
 author_profile: true
+header:
+  teaser: /images/projects/datainsight_cover.png
 ---
 
 ## 项目定位
