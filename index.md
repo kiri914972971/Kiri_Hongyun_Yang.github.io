@@ -38,31 +38,24 @@ author: academicpages
 
 ---
 
-## 🔍 我关注的方向
+## 🔍 我正在探索
 
-- **Business & Data Analysis**  
-  数据清洗、经营分析、用户洞察、预测建模
-
-- **Product Thinking**  
-  用户需求分析、增长思路、商业场景优化
-
-- **Dashboard & Visualization**  
-  Tableau / Excel 可视化看板与业务汇报
+AIAgent、智能体产品、LLM应用落地、数据驱动的产品创新
 
 ---
 
-## 🧩 我的经历关键词
+## 🧩 我的优势
 
-- 在新东方累计授课 **3500+小时**，训练沟通表达与结果导向能力  
-- 在保险公司搭建销售监控看板，支持区域经营分析  
-- 完成酒店取消预测、游戏平台分析、数字音乐数据库等项目  
-- 熟悉从数据整理 → 分析建模 → 输出建议的完整流程
+- AI产品思维:从0到1规划AI产品，关注用户价值与商业落地
+- 数据分析能力:数据清洗、建模、可视化与洞察，驱动业务决策  
+- 跨领域理解:金融、酒店、电商、教育等行业项目经验  
+- 快速学习与执行:熟悉从问题定义到产品上线的完整流程
 
 ---
 
 ## 🛠 Tools
 
-Python（pandas / sklearn）、SQL、Tableau、Excel（Power Query / Pivot）、SAS、Java、MS Project
+Codex, Python(pandas / sklearn), SQL, Tableau, Excel(Power Query / Pivot), Java, MS Project
 
 ---
 
