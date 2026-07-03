@@ -5,6 +5,8 @@ excerpt: "VS Code AI 小说创作助手，面向长篇小说创作者，围绕�
 date: 2026-07-01
 author: academicpages
 author_profile: true
+header:
+  teaser: /images/projects/novel_cover.png
 ---
 
 ## 项目定位
